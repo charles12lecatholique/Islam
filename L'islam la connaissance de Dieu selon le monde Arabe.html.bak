@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'islam : La Connaissance de Dieu selon le Monde Arabe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fond noir */
+            color: #fff; /* Texte blanc */
+        }
+        header {
+            background-color: #004d00; /* Fond vert */
+            color: #fff; /* Texte blanc */
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 2px solid red; /* Contour rouge */
+        }
+        nav {
+            margin: 0 auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff; /* Texte blanc */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid red; /* Contour rouge */
+            background-color: #fff; /* Fond blanc pour les sections */
+            color: #000; /* Texte noir pour les sections */
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery a {
+            display: block;
+            position: relative;
+            width: 150px;
+            height: 100px;
+            overflow: hidden;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+        .lightbox a {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>L'islam : La Connaissance de Dieu selon le Monde Arabe</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#hadith">La Science du Hadith</a></li>
+                <li><a href="#sunnah">La Sunnah</a></li>
+                <li><a href="#ecoles">Les Écoles Sunnites</a></li>
+                <li><a href="#salaf">Les Salaf</a></li>
+                <li><a href="#ecole-supplementaire">École Supplémentaire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction" class="section">
+            <h2>Introduction</h2>
+            <p>L'Islam est une religion révélée par Allah (Dieu) au Prophète Muhammad au VIIe siècle dans la péninsule arabique. C'est une foi monothéiste qui repose sur deux sources principales : le Coran et la Sunnah. La compréhension et la pratique de l'Islam sont également influencées par diverses écoles de pensée et mouvements qui ont émergé au fil des siècles.</p>
+        </section>
+
+        <section id="hadith" class="section">
+            <h2>La Science du Hadith</h2>
+            <p>La science du hadith (Ilm al-Hadith) est une discipline fondamentale dans l'islam qui étudie et évalue les récits attribués au Prophète Muhammad.</p>
+            <p>Elle a pour but de déterminer l'authenticité des hadiths, leur chaîne de transmission (isnad), et leur contenu (matn).</p>
+            <p>Cette science est cruciale pour la jurisprudence islamique, la théologie et la compréhension des enseignements islamiques.</p>
+
+            <h3>Méthodologie de la Science du Hadith</h3>
+            
+            <h4>1. Collecte des Hadiths</h4>
+            <p>Les hadiths ont été collectés et compilés par des savants à partir des récits transmis oralement et par écrit.</p>
+            <p>Les recueils les plus célèbres incluent Sahih al-Bukhari et Sahih Muslim, qui sont considérés comme les plus authentiques.</p>
+
+            <h4>2. Évaluation des Chaînes de Transmission (Isnad)</h4>
+            <p>Chaque hadith est examiné pour sa chaîne de narrateurs.</p>
+            <p>Les narrateurs sont évalués sur la base de leur fiabilité, de leur mémoire, et de leur intégrité.</p>
+            <p>Cela permet de déterminer si le hadith peut être considéré comme authentique.</p>
+            <p>Les chaînes de transmission peuvent être classées en plusieurs catégories :</p>
+            <ul>
+                <li>Mutawatir : Hadiths rapportés par un grand nombre de narrateurs à chaque niveau, rendant leur authenticité indiscutable.</li>
+                <li>Ahad : Hadiths rapportés par un nombre limité de narrateurs. Ceux-ci peuvent être subdivisés en :
+                    <ul>
+                        <li>Sahih Ahad : Hadiths authentiques avec une chaîne solide.</li>
+                        <li>Hasan Ahad : Hadiths bons mais avec une chaîne légèrement moins forte.</li>
+                        <li>Da'if Ahad : Hadiths faibles.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>3. Classification des Hadiths</h4>
+            <p>Les hadiths sont classés selon leur degré d'authenticité, et il existe des niveaux au sein des hadiths authentiques :</p>
+            <ul>
+                <li>Sahih : Hadiths authentiques, fiables.</li>
+                <li>Hasan : Hadiths bons, acceptables, mais avec une chaîne moins forte.</li>
+                <li>Sahih li-Ghayrihi : Hadiths considérés comme authentiques en raison de leur soutien par d'autres hadiths.</li>
+                <li>Sahih li-Dhatihe : Hadiths authentiques, indépendamment d'autres récits.</li>
+                <li>Da'if : Hadiths faibles, non fiables.</li>
+            </ul>
+
+            <h4>Comparaison des Hadiths</h4>
+            <p>Dans le cadre de la science du hadith, les savants comparent les hadiths sur un même sujet pour évaluer leur authenticité et leur concordance.</p>
+            <p>Cette approche permet de distinguer les hadiths qui sont plus authentiques ou plus fiables que d'autres, même parmi ceux qui sont classés comme sahih.</p>
+
+            <h4>Autorité et Organisation dans le Sunnisme</h4>
+            <p>Contrairement au catholicisme, où il existe une autorité centrale (le Vatican), l'islam sunnite ne possède pas d'institution formelle unique qui détermine l'authenticité des hadiths ou la jurisprudence.</p>
+            <p>Cependant, il existe des structures et des groupes influents qui jouent un rôle dans l'enseignement et l'interprétation de l'islam :</p>
+            <ul>
+                <li>Les ulama sont des érudits qui étudient la jurisprudence, le hadith, et d'autres sciences islamiques. Ils n'ont pas d'autorité centralisée, mais ils peuvent avoir une grande influence dans leurs communautés respectives.</li>
+                <li>Les institutions d'enseignement islamique, comme Al-Azhar en Égypte ou l'Université de Nadwatul Ulama en Inde, sont respectées pour leur enseignement des sciences islamiques, y compris la science du hadith.</li>
+                <li>Dans certains pays, des conseils ou des comités islamiques peuvent être établis pour discuter et formuler des positions sur des questions religieuses, mais cela ne constitue pas une autorité formelle similaire à celle du Vatican.</li>
+            </ul>
+
+            <div class="gallery">
+                <a href="#lightbox1"><img src=" C:\Users\ebrot\OneDrive\Documents\dossier\Galois\Hadiths authentique.jpg"  alt="Hadith 1"></a>
+                <a href="#lightbox2"><img src=" C:\Users\ebrot\OneDrive\Documents\dossier\Galois\hassan-hadith-l.jpg"   alt="Hadith 2"></a>
+                <a href="#lightbox3"><img src="hadith3.jpg" alt="Hadith 3"></a>
+            </div>
+        </section>
+
+        <section id="sunnah" class="section">
+            <h2>La Sunnah</h2>
+            <h3>Définition et Origine</h3>
+            <p>La Sunnah désigne l'ensemble des pratiques, des paroles et des comportements du prophète Muhammad.</p>
+            <p>Elle sert de modèle à suivre pour les musulmans et complète le Coran dans la compréhension de la foi islamique.</p>
+            <p>La Sunnah inclut :</p>
+            <ul>
+                <li>Les actions : Ce que le Prophète a fait.</li>
+                <li>Les paroles : Ce qu'il a dit.</li>
+                <li>Les approbations : Ce qu'il a approuvé ou toléré.</li>
+            </ul>
+            <p>La Sunnah est essentielle pour le développement de la jurisprudence islamique (fiqh) et guide les musulmans dans leur vie quotidienne.</p>
+
+            <h3>La Sira du Prophète Muhammad</h3>
+            <h4>Définition et Origine</h4>
+            <p>La Sira est une biographie du Prophète Muhammad, qui retrace sa vie, ses actions et ses enseignements.</p>
+            <p>Elle est une source importante pour comprendre le contexte historique et culturel dans lequel l'islam a émergé.</p>
+
+            <h4>1. Origines</h4>
+            <p>Les premières biographies ont été écrites au 8e siècle par des compagnons et des historiens musulmans, comme Ibn Ishaq, dont l'œuvre a été largement diffusée par Ibn Hicham.</p>
+            <p>La Sira couvre des aspects de la vie de Muhammad, tels que sa naissance, sa jeunesse, sa mission prophétique, les premiers musulmans, les conflits avec les Quraysh, et les événements clés de sa vie.</p>
+
+            <h4>2. Importance</h4>
+            <p>La Sira fournit un contexte historique qui aide à comprendre les versets coraniques.</p>
+            <p>Elle est souvent utilisée pour illustrer les principes de la Sunnah.</p>
+
+            <h3>Les Hadiths</h3>
+            <h4>Définition</h4>
+            <p>Les Hadiths sont des récits qui rapportent les paroles, les actions, et les approbations du Prophète Muhammad.</p>
+            <p>Ils constituent une source primaire de la législation islamique et de la morale, en complément du Coran.</p>
+
+            <h4>Niveaux de Hadiths</h4>
+            <p>Les hadiths sont classés selon leur fiabilité et leur authenticité en plusieurs catégories :</p>
+            <ul>
+                <li>Sahih (authentique) : Hadiths dont la chaîne de transmission est solide et dont le contenu est conforme aux principes islamiques.</li>
+                <li>Hasan (bon) : Hadiths qui sont également considérés comme fiables, mais dont la chaîne de transmission est légèrement moins forte que celle des Sahih.</li>
+                <li>Da'if (faible) : Hadiths dont la chaîne de transmission présente des lacunes ou des faiblesses, ce qui remet en question leur fiabilité.</li>
+                <li>Mawdu' (forgé) : Hadiths qui sont considérés comme inventés ou faux.</li>
+            </ul>
+
+            <h4>Chaîne de Transmission (Isnad)</h4>
+            <p>La chaîne de transmission, ou isnad, est la liste des narrateurs qui ont rapporté un hadith.</p>
+            <p>La vérification de cette chaîne est cruciale pour établir la validité du hadith.</p>
+
+            <h4>1. Niveaux de Chaîne de Transmission</h4>
+            <ul>
+                <li>Mutawatir : Hadiths rapportés par un grand nombre de narrateurs à chaque niveau de la chaîne, rendant leur authenticité indiscutable.</li>
+                <li>Ahad : Hadiths rapportés par un nombre limité de narrateurs. Ceux-ci peuvent être subdivisés en :
+                    <ul>
+                        <li>Sahih Ahad : Hadiths authentiques avec une chaîne solide.</li>
+                        <li>Hasan Ahad : Hadiths bons mais avec une chaîne légèrement moins forte.</li>
+                        <li>Da'if Ahad : Hadiths faibles.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="gallery">
+                <a href="#lightbox4"><img src="sunnah1.jpg" alt="Sunnah 1"></a>
+                <a href="#lightbox5"><img src="sunnah2.jpg" alt="Sunnah 2"></a>
+                <a href="#lightbox6"><img src="sunnah3.jpg" alt="Sunnah 3"></a>
+            </div>
+        </section>
+
+        <section id="ecoles" class="section">
+            <h2>Les Écoles Sunnites</h2>
+            <h3>Les Quatre Écoles Juridiques de l'Islam Sunnite</h3>
+
+            <h4>1. École Hanafi</h4>
+            <p>Origine : Fondée par Abu Hanifa (699-767), en Irak.</p>
+            <p>Fonctionnement : Elle est connue pour sa flexibilité et son ouverture à l'usage du raisonnement analogique (qiyas) et de l'opinion personnelle (ra'y).</p>
+            <p>Les hanafites privilégient l'ijtihad (effort d'interprétation) et acceptent des avis divergents dans certains cas.</p>
+            <p>Particularités : C'est l'école la plus répandue dans le monde musulman, notamment en Turquie, en Inde, et dans certaines parties de l'Asie centrale.</p>
+
+            <h4>2. École Maliki</h4>
+            <p>Origine : Fondée par Malik ibn Anas (711-795), en Arabie.</p>
+            <p>Fonctionnement : Elle s'appuie fortement sur la pratique des habitants de Médine comme source de jurisprudence.</p>
+            <p>Les malékites accordent une grande importance à la tradition (sunnah) et aux pratiques communautaires.</p>
+            <p>Particularités : Cette école est principalement suivie en Afrique du Nord et dans certaines parties de l'Afrique subsaharienne.</p>
+
+            <h4>3. École Shafi'i</h4>
+            <p>Origine : Fondée par Muhammad ibn Idris al-Shafi'i (767-820), en Égypte.</p>
+            <p>Fonctionnement : Cette école met l'accent sur l'importance du Coran et de la Sunnah, et établit des règles strictes pour l'interprétation des textes.</p>
+            <p>Les shafi'ites utilisent le qiyas et l'ijma (consensus des savants) comme sources juridiques.</p>
+            <p>Particularités : Elle est prédominante en Asie du Sud-Est, en Afrique de l'Est, et dans certaines parties de l'Arabie.</p>
+
+            <h4>4. École Hanbali</h4>
+            <p>Origine : Fondée par Ahmad ibn Hanbal (780-855), en Irak.</p>
+            <p>Fonctionnement : C'est l'école la plus conservatrice, qui se concentre presque exclusivement sur le Coran et la Sunnah.</p>
+            <p>Les hanbalis sont réticents à utiliser le raisonnement analogique ou l'opinion personnelle.</p>
+            <p>Particularités : Elle est principalement suivie en Arabie Saoudite et est associée à un islam plus traditionnel et littéraliste.</p>
+
+            <h3>Les Trois Écoles Théologiques de l'Islam Sunnite</h3>
+
+            <h4>1. École Ash'arite</h4>
+            <p>Origine : Fondée par Abu al-Hasan al-Ash'ari (873-935)</p>
+            <p>Fonctionnement : Les ash'arites mettent l'accent sur la raison et la révélation, cherchant à harmoniser la foi avec la philosophie.</p>
+            <p>Ils affirment que la foi est fondée sur la tradition, mais que la raison a un rôle dans la compréhension des textes.</p>
+            <p>Particularités : Cette école est largement acceptée dans le monde sunnite et a influencé la théologie islamique.</p>
+
+            <h4>2. École Maturidite</h4>
+            <p>Origine : Fondée par Abu Mansur al-Maturidi (853-944).</p>
+            <p>Fonctionnement : Les maturidites partagent des similitudes avec les ash'arites, mais insistent davantage sur l'importance de la raison dans la foi.</p>
+            <p>Ils considèrent que la raison peut conduire à la connaissance de Dieu sans avoir besoin de révélation.</p>
+            <p>Particularités : Cette école est principalement suivie en Asie centrale et dans certaines parties de la Turquie.</p>
+
+            <h4>3. École Atharite</h4>
+            <p>Origine : Fondée par des savants comme Ahmad ibn Hanbal et Ibn Qudamah (1236-1329).</p>
+            <p>Fonctionnement : Les atharites mettent l'accent sur la tradition (sunnah) et la pratique des premiers musulmans, sans recourir à des interprétations philosophiques.</p>
+            <p>Particularités : Cette école est parfois associée à un islam plus littéraliste et conservateur.</p>
+
+            <div class="gallery">
+                <a href="#lightbox7"><img src="ecole1.jpg" alt="École 1"></a>
+                <a href="#lightbox8"><img src="ecole2.jpg" alt="École 2"></a>
+                <a href="#lightbox9"><img src="ecole3.jpg" alt="École 3"></a>
+            </div>
+        </section>
+
+        <section id="salaf" class="section">
+            <h2>Les Salaf</h2>
+            <p>Qu'est-ce qu'un Salaf ?</p>
+            <p>Le terme Salaf désigne les premiers musulmans, notamment le Prophète Muhammad et ses compagnons.</p>
+            <p>Dans le contexte moderne, le terme Salaf est souvent utilisé pour désigner un mouvement qui prône un retour aux enseignements et aux pratiques des premiers musulmans (les Salafs).</p>
+            <p>Les salafistes cherchent à vivre selon ce qu'ils considèrent comme l'islam pur, tel qu'il était pratiqué à l'époque du Prophète et des générations qui ont suivi.</p>
+            <p>Ce mouvement peut être divisé en plusieurs sous-groupes :</p>
+            <ul>
+                <li><strong>Salafisme pur :</strong> Prône une interprétation littérale des textes islamiques, en rejetant toute innovation (bid'ah) dans la foi.</li>
+                <li><strong>Salafisme politique :</strong> Cherche à appliquer les principes islamiques à la vie politique et sociale, souvent en appelant à des réformes politiques basées sur la charia.</li>
+                <li><strong>Salafisme jihadiste :</strong> Une interprétation extrême qui justifie l'utilisation de la violence pour atteindre des objectifs politiques et religieux.</li>
+            </ul>
+            <div class="gallery">
+                <a href="#lightbox10"><img src="salaf1.jpg" alt="Salaf 1"></a>
+                <a href="#lightbox11"><img src="salaf2.jpg" alt="Salaf 2"></a>
+                <a href="#lightbox12"><img src="salaf3.jpg" alt="Salaf 3"></a>
+            </div>
+        </section>
+
+        <section id="ecole-supplementaire" class="section">
+            <h2>École Supplémentaire</h2>
+            <h3>École Zahiri</h3>
+            <p>Origine : Fondée par Dawud al-Zahiri (m. 883).</p>
+            <p>Fonctionnement : Cette école prône une interprétation littérale des textes religieux, rejetant le raisonnement personnel (ra'y) et l'analogie (qiyas).</p>
+            <p>Les zahiris se concentrent sur le Coran, la Sunnah, et le consensus (ijma) sans recourir à d'autres sources.</p>
+            <p>Particularités : Bien que cette école ait perdu de son influence, elle a eu une certaine popularité dans les premiers siècles de l'islam.</p>
+
+            <h3>École Ismaélienne</h3>
+            <p>Origine : Une branche du chiisme, fondée sur l'interprétation des enseignements islamiques par Ismaïl ibn Jafar.</p>
+            <p>Fonctionnement : Les ismaéliens se distinguent par leur croyance en la continuité de l'imamat, affirmant que les imams sont des guides spirituels et politiques divinement désignés.</p>
+            <p>Particularités : Ils ont développé leur propre jurisprudence et théologie distinctes.</p>
+
+            <h3>École Twelver (Imamite)</h3>
+            <p>Origine : Une autre branche du chiisme, qui reconnaît douze imams comme les dirigeants légitimes de la communauté musulmane.</p>
+            <p>Fonctionnement : Les chiites duodécimains suivent les enseignements des imams et s'appuient sur des sources juridiques et théologiques spécifiques.</p>
+            <p>Particularités : Cette école est la plus largement suivie parmi les chiites, en particulier en Iran et en Irak.</p>
+
+            <h3>École Sufi</h3>
+            <p>Origine : Le soufisme est un mouvement mystique qui vise à atteindre une compréhension plus profonde de Dieu et une relation personnelle avec Lui.</p>
+            <p>Fonctionnement : Bien qu'il ne s'agisse pas d'une école juridique formelle, le soufisme a influencé de nombreuses traditions juridiques et théologiques en intégrant des pratiques spirituelles et éthiques dans la vie quotidienne des musulmans.</p>
+            <p>Particularités : Les soufis suivent souvent des maîtres spirituels (sheikhs) et utilisent des techniques comme le dhikr (rappel de Dieu) pour renforcer leur foi.</p>
+
+            <div class="gallery">
+                <a href="#lightbox13"><img src="ecole-supp1.jpg" alt="École Supplémentaire 1"></a>
+                <a href="#lightbox14"><img src="ecole-supp2.jpg" alt="École Supplémentaire 2"></a>
+                <a href="#lightbox15"><img src="ecole-supp3.jpg" alt="École Supplémentaire 3"></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox1" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="hadith1.jpg" alt="Hadith 1">
+    </div>
+    <div id="lightbox2" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="hadith2.jpg" alt="Hadith 2">
+    </div>
+    <div id="lightbox3" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="hadith3.jpg" alt="Hadith 3">
+    </div>
+    <div id="lightbox4" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="sunnah1.jpg" alt="Sunnah 1">
+    </div>
+    <div id="lightbox5" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="sunnah2.jpg" alt="Sunnah 2">
+    </div>
+    <div id="lightbox6" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="sunnah3.jpg" alt="Sunnah 3">
+    </div>
+    <div id="lightbox7" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole1.jpg" alt="École 1">
+    </div>
+    <div id="lightbox8" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole2.jpg" alt="École 2">
+    </div>
+    <div id="lightbox9" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole3.jpg" alt="École 3">
+    </div>
+    <div id="lightbox10" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="salaf1.jpg" alt="Salaf 1">
+    </div>
+    <div id="lightbox11" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="salaf2.jpg" alt="Salaf 2">
+    </div>
+    <div id="lightbox12" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="salaf3.jpg" alt="Salaf 3">
+    </div>
+    <div id="lightbox13" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole-supp1.jpg" alt="École Supplémentaire 1">
+    </div>
+    <div id="lightbox14" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole-supp2.jpg" alt="École Supplémentaire 2">
+    </div>
+    <div id="lightbox15" class="lightbox">
+        <a href="#">&times;</a>
+        <img src="ecole-supp3.jpg" alt="École Supplémentaire 3">
+    </div>
+
+    <script>
+        document.querySelectorAll('.gallery a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const lightboxId = this.getAttribute('href').substring(1);
+                document.getElementById(lightboxId).style.display = 'flex';
+            });
+        });
+
+        document.querySelectorAll('.lightbox a').forEach(close => {
+            close.addEventListener('click', function() {
+                this.parentElement.style.display = 'none';
+            });
+        });
+
+        window.addEventListener('click', function(e) {
+            if (e.target.classList.contains('lightbox')) {
+                e.target.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
